@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+		<LangVersion>latest</LangVersion>
+		<Authors>James Winstanley</Authors>
+		<Company></Company>
+		<PackageIcon>ui-avatars.com-jw-jira.png</PackageIcon>
+		<PackageIconUrl />
+		<RepositoryUrl>https://github.com/james-winstanley/Winstanley.UnitOfWork</RepositoryUrl>
+		<RepositoryType>private</RepositoryType>
+		<PackageTags>James Winstanley, Database, Unit of Work</PackageTags>
+		<Description>Common base library for repository + unit of work pattern.</Description>
+		<Copyright>James Winstanley</Copyright>
+		<Version>1.0.0</Version>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>	  
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Dapper" Version="2.0.123" />
+		<PackageReference Include="Dapper.FastCrud" Version="2.5.0.39" />
+		<PackageReference Include="Dapper.FastCrud.Concurrency" Version="1.0.0" />
+		<PackageReference Include="Microsoft.Data.SqlClient" Version="3.0.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Include="..\..\Assets\Icons\ui-avatars.com-jw-jira.png">
+	    <Pack>True</Pack>
+	    <PackagePath></PackagePath>
+	  </None>
+	</ItemGroup>
+</Project>
