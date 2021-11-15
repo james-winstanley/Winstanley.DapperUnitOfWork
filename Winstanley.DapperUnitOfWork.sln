@@ -7,7 +7,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7CAB8EC2-E6E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{868FCF03-5377-429D-9252-F248AF4D24CA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Winstanley.UnitOfWork", "src\Winstanley.UnitOfWork.csproj", "{0A9ABAE4-E42A-4E44-9F89-1E9740335227}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Winstanley.DapperUnitOfWork", "src\Winstanley.DapperUnitOfWork.csproj", "{0A9ABAE4-E42A-4E44-9F89-1E9740335227}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2D2C394F-8F2F-418E-A891-2208B2CA1FC6}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
